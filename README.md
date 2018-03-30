@@ -98,6 +98,11 @@ Extend the model uses - create an object, which include the built-in methods for
 
 ## 模型ensemble 之stack 
 
+#### Base model:  adaboost, gbdt
+transfer the output to become the input of second level
+#### second level: xgb
+
+## 调参
 #### Base model: random forest, adaboost, Xgboost
 
 
